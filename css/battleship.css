@@ -1,0 +1,53 @@
+html, body, ul, li {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: inherit;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.fleet-container {
+  width: 252px;
+  display: block;
+  float: left;
+}
+.fleet-container h3 {
+  text-align: center;
+}
+
+.ocean {
+  margin: 0 20px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  display: block;
+  width: 210px;
+}
+
+li {
+  width: 20px;
+  height: 20px;
+  background: #06c;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  display: block;
+  float: left;
+}
+
+li:hover {
+  background: #09c;
+}
+
+
+li.ship {
+  width: 100%;
+}
+
+.ship-list li:even {
+  background: red;
+}

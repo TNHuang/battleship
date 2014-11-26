@@ -1,11 +1,42 @@
 <html>
   <head>
     <title>battleships</title>
-    <script src="lib/*"></script>
+    <script src="lib/board.js"></script>
+    <script src="lib/gameView.js"></script>
     <link href="css/battleship.css" rel="stylesheet">
-    <script src="jquery-1.4.2.min.js"></script>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
   </head>
   <body>
+    <section class="fleet-container">
+      <h3>Enemy Fleet</h3>
+      <ul class="enemy-ocean ocean clearfix">
 
+      </ul>
+    </section>
+
+    <section class="fleet-container">
+      <h3>My Fleet</h3>
+      <ul class="my-ocean ocean clearfix">
+
+      </ul>
+    </section>
+
+
+    <section class="fleet-container">
+      <h3>drydock</h3>
+      <ul class="ship-list">
+
+      </ul>
+    </section>
+
+
+    <script>
+      $(document).ready(function(){
+
+        var newView = new Game.View();
+
+      });
+    </script>
   </body>
 </html>
