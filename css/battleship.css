@@ -59,3 +59,9 @@ li.ship {
 .miss {
   background: #ccc;
 }
+
+.tilt {
+  transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+}
