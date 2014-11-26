@@ -55,3 +55,7 @@ li.ship {
 .volley {
   background: red;
 }
+
+.miss {
+  background: #ccc;
+}
