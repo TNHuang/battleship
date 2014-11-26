@@ -48,6 +48,10 @@ li.ship {
   width: 100%;
 }
 
-.ship-list li:even {
+.is-ship {
+  background: black;
+}
+
+.volley {
   background: red;
 }
